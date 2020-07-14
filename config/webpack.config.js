@@ -546,10 +546,6 @@ module.exports = function (webpackEnv) {
       ],
     },
     plugins: [
-      new CKEditorWebpackPlugin({
-        // See https://ckeditor.com/docs/ckeditor5/latest/features/ui-language.html
-        language: "en",
-      }),
       // Generates an `index.html` file with the <script> injected.
       new HtmlWebpackPlugin(
         Object.assign(
